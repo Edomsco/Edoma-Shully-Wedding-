@@ -84,16 +84,22 @@ nav a{
 /* Hero */
 
 .hero{
-    height:100vh;
+    min-height:100vh;
     background:
     linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
     url('IMG_20261107_134038.jpg');
+    
     background-size:cover;
-    background-position:center;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    
     display:flex;
     justify-content:center;
     align-items:center;
     text-align:center;
+
+    padding:120px 20px 60px;
     color:white;
 }
 
