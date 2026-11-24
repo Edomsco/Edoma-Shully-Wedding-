@@ -478,8 +478,6 @@ Through Jehovah’s guidance and blessings, our relationship matured into a comm
     
 </div>
 
-</section>
-
 <section id="rsvp">
 
 <div class="section-title">
@@ -488,26 +486,28 @@ Through Jehovah’s guidance and blessings, our relationship matured into a comm
 
 <div class="rsvp">
 
-<form>
+<form action="https://formspree.io" method="POST">
 
-<input type="text" placeholder="Full Name">
+<input type="text" name="Full Name" placeholder="Full Name" required>
 
-<input type="email" placeholder="Email Address">
+<input type="email" name="Email Address" placeholder="Email Address" required>
 
-<input type="tel" placeholder="Phone Number">
+<input type="tel" name="Phone Number" placeholder="Phone Number">
 
-<select>
-<option>Will Attend</option>
-<option>Unable To Attend</option>
+<select name="Attendance" required>
+<option value="Will Attend">Will Attend</option>
+<option value="Unable To Attend">Unable To Attend</option>
 </select>
 
-<textarea rows="5" placeholder="Leave your message"></textarea>
+<textarea rows="5" name="Message" placeholder="Leave your message"></textarea>
 
 <button type="submit">Submit RSVP</button>
 
 </form>
 
 </div>
+
+</section></div>
 
 </section>
 
